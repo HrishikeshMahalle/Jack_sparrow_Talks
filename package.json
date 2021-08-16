@@ -1,0 +1,15 @@
+{
+  "name": "breaking-bad-quiz",
+  "version": "1.0.0",
+  "description": "A breaking bad CLI quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza Rarani",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
