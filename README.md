@@ -1,3 +1,3 @@
-# A Breaking Bad Quiz
+# Cpt Jack sparrow wants to Interview You!! Get ready
 
-### A CLI quiz for breaking bad
+### A CLI quiz
