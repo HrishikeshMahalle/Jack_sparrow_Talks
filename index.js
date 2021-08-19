@@ -7,47 +7,47 @@ let progress = 0;
 
 const ques_ans = [
     {
-        question: 'How many episodes of Breaking Bad were aired? ',
-        answer: '62'
+        question: 'BUT PIRATE IS IN YOUR BLOOD, BOY, SO YOU WILL HAVE TO _________ SOME DAY. Complete the sentence',
+        answer: 'confess'
     },
     {
-        question: 'Which year was Breaking Bad first aired? ',
-        answer: '2008'
+        question: 'Which year did we Pirates had our First Movie? ',
+        answer: '2003'
     },
     {
-        question: "What is Gus Fring's henchman Mike's surname? ",
-        answer: 'ehrmantraut'
+        question: "What's captain Jack sparrow's real First Name? ",
+        answer: 'jonny'
     },
     {
-        question: 'What does DEA stand for? ',
-        answer: 'drug enforcement agency'
+        question: 'HOW MANY CREWMEMBERS DOES CAPTAIN JACK SPARROW EMPLOY OUT OF TORTUGA?',
+        answer: '12'
     },
     {
-        question: 'Which area of science does Walt teach at school? ',
-        answer: 'chemistry'
+        question: 'What is cpt.Jack sparrows First ships name ',
+        answer: 'barnacle'
     },
     {
-        question: 'Name the plant Walt used to poison a child. ',
-        answer: 'lily of the valley'
+        question: 'Who wrote Pirates of the Caribbean Dead man tells no Tale?',
+        answer: 'jeff nathanson'
     },
     {
-        question: 'Which food does Walt infamously throw onto the roof of his house? ',
-        answer: 'pizza'
+        question: 'Fathers name of cpt.Jack sparrow?',
+        answer: 'cpt edward teague'
     },
     {
-        question: "Name the famous author of the book Hank reads to discover Walt's true identity. ",
-        answer: 'walt whitman'
+        question: "which ship was cpt.Jack sparrow born? ",
+        answer: 'tycoon'
     },
     {
-        question: "What is the name of Skinny Pete's accomplice? ",
-        answer: 'badger'
+        question: "What is Black peral ",
+        answer: 'ship'
     },
 ];
 
 const play = (userName) => {
-    console.log(chalk.blue('Welcome to the quiz ') + userName);
-    console.log(chalk.blue('How well do you know about your favourite TV Series (Breaking Bad)?'));
-    console.log(chalk.blue("Let's Start ..."));
+    console.log(chalk.blue('Welcome Aboart, please wear Your pirate hat ') + userName);
+    console.log(chalk.blue('How Good pirate are YOU?'));
+    console.log(chalk.blue("Tune UP, Captian!!!!!!!!! here we are comming"));
 
     ques_ans.map(qa => {
         let answer = readlineSync.question(chalk.green(qa.question));
